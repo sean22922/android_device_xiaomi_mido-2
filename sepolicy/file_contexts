@@ -22,3 +22,6 @@
 
 # Data files
 /data/misc/netmgr/log\.txt			u:object_r:netmgrd_data_file:s0
+
+# Magisk
+/magisk(/.*)?                                   u:object_r:system_file:s0
