@@ -29,7 +29,7 @@ PRODUCT_PROPERTY_OVERRIDES += ro.xenonhd.maintainer=dadi11
 ROOT_METHOD=magisk
 
 PRODUCT_PACKAGES += \
-    Adaway \
+    AdAway \
     KernelAdiutor \
     MiXplorer
 
