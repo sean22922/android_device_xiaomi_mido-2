@@ -26,8 +26,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_PROPERTY_OVERRIDES += ro.xenonhd.maintainer=dadi11
 
-ROOT_METHOD=magisk
-
 PRODUCT_PACKAGES += \
     AdAway \
     KernelAdiutor \
