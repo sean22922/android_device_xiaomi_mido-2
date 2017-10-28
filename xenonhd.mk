@@ -24,7 +24,9 @@ BOARD_VENDOR := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-PRODUCT_PROPERTY_OVERRIDES += ro.xenonhd.maintainer=dadi11
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.xenonhd.maintainer=dadi11 \
+    ro.xenonhd.donate="https://www.paypal.me/dadi11"
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_FINGERPRINT="xiaomi/mido/mido:7.0/NRD90M/V8.5.4.0.NCFMIED:user/release-keys" \
